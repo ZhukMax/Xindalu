@@ -1,0 +1,9 @@
+[package]
+name = "xindalu"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+macroquad = "0.4.14"
+ron = "0.10.1"
+serde = { version = "1.0.219", features = ["derive"] }
